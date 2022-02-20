@@ -1,10 +1,12 @@
 from earth import humans
 from earth import sicknesses
 
+
 for human in humans:
     human.is_sick = False
     human.has_antibodies = True
-
+    human.is_in_love = False
+    
 for sickness in sicknesses:
     sickness.active = False
     sickness.has_cure = True
