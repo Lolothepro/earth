@@ -6,6 +6,7 @@ for human in humans:
     human.is_sick = False
     human.has_antibodies = True
     human.is_in_love = False
+    human.is_stalker = False
     
 for sickness in sicknesses:
     sickness.active = False
